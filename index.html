@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <title>Prevent Data Leaks to LLMs — Free Chrome Extension</title>
+    <meta
+      name="description"
+      content="Prevent accidental data leaks into AI tools like ChatGPT and Claude. A free Chrome extension that warns you before you paste sensitive data into public LLMs. Privacy-first. Zero data stored."
+    />
+    <meta
+      name="keywords"
+      content="prevent data leak chatgpt, llm data protection, ai privacy tool, chrome extension llm safety, prevent pii leakage, secure ai usage"
+    />
+
+    <!-- OpenGraph Tags -->
+    <meta
+      property="og:title"
+      content="Prevent Data Leaks to LLMs — Free Chrome Extension"
+    />
+    <meta
+      property="og:description"
+      content="Prevent accidental data leaks into AI tools like ChatGPT and Claude. Privacy-first. Zero data stored."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/og-image.PNG" />
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Prevent Data Leaks to LLMs — Free Chrome Extension"
+    />
+    <meta
+      name="twitter:description"
+      content="Prevent accidental data leaks into AI tools like ChatGPT and Claude. Privacy-first. Zero data stored."
+    />
+    <meta name="twitter:image" content="assets/images/twitter-image.PNG" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/PNG" href="assets/images/favicon.PNG" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- Sticky Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <span class="logo-icon">🛡️</span>
+            <span class="logo-text">LLM Guard</span>
+          </div>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li><a href="#why">Why</a></li>
+              <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </nav>
+          <a href="#install" class="btn btn-primary">Install Free Extension</a>
+          <button class="mobile-menu-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <ul class="mobile-menu-list">
+        <li><a href="#why">Why</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li>
+          <a href="#install" class="btn btn-primary">Install Free Extension</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Prevent Data Leaks to LLMs — Automatically</h1>
+          <p class="hero-subtitle">
+            A free Chrome extension that helps you safely use ChatGPT, Claude,
+            and other LLMs without exposing sensitive data.
+          </p>
+          <p class="hero-description">
+            Use AI confidently. Get instant warnings before you paste emails,
+            client data, source code, secrets, or internal documents into public
+            AI tools.
+          </p>
+          <a href="#install" class="btn btn-large btn-primary"
+            >Install Free Extension</a
+          >
+        </div>
+        <div class="hero-image">
+          <img
+            src="assets/images/product in action.PNG"
+            alt="Product in action"
+            class="screenshot"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Band -->
+    <section class="trust-band">
+      <div class="container">
+        <p class="trust-text">
+          ⭐ Trusted by professionals in tech, consulting, finance, legal, and
+          healthcare who want to avoid accidental data exposure while using AI
+          at work.
+        </p>
+      </div>
+    </section>
+
+    <!-- Why This Matters -->
+    <section id="why" class="section why-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Why This Matters</h2>
+          <h3 class="section-subtitle">
+            LLM Data Leaks Are Happening Every Day
+          </h3>
+        </div>
+        <div class="why-content">
+          <div class="why-text">
+            <p>
+              Employees paste sensitive data into ChatGPT without realizing the
+              risk. Policies aren't enough - mistakes still happen.
+            </p>
+            <p class="highlight">
+              This extension gives you a simple, automatic safety net.
+            </p>
+
+            <h4 class="subsection-title">
+              What people accidentally paste into AI tools:
+            </h4>
+            <ul class="check-list">
+              <li>Client emails & internal documents</li>
+              <li>Source code & logs</li>
+              <li>Credentials, tokens, secrets</li>
+              <li>Customer data (PII, PHI)</li>
+              <li>Contracts, HR info, legal notes</li>
+            </ul>
+
+            <p class="closing-statement">
+              You shouldn't have to choose between being productive and staying
+              safe.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who It's For -->
+    <section class="section who-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Who It's For</h2>
+        </div>
+        <div class="cards-grid">
+          <div class="card">
+            <h3 class="card-title">SaaS & Tech Employees</h3>
+            <p class="card-text">
+              Catch accidental code or credential leaks before they happen.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Consultants & Freelancers</h3>
+            <p class="card-text">
+              Avoid violating NDAs or exposing client data.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Legal, HR, Ops, Compliance</h3>
+            <p class="card-text">
+              Use AI for drafting and summarizing without leaking sensitive
+              documents.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Security-Conscious Professionals</h3>
+            <p class="card-text">
+              Get a basic, free guardrail - no setup required.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="section how-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">How It Works</h2>
+        </div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3 class="step-title">You paste something into ChatGPT</h3>
+              <p class="step-text">Local browser-based scanning kicks in.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3 class="step-title">
+                Sensitive patterns are detected instantly
+              </h3>
+              <p class="step-text">
+                PII, IDs, names, source code, secrets, more.
+              </p>
+              <img
+                src="assets/images/product in action.PNG"
+                alt="Product in action"
+                class="screenshot step-image"
+              />
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3 class="step-title">
+                You get a warning before you hit submit
+              </h3>
+              <p class="step-text">Decide whether to continue.</p>
+              <img
+                src="assets/images/blocking summary.PNG"
+                alt="Summary screen"
+                class="screenshot step-image"
+              />
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h3 class="step-title">
+                View a local log of detections (optional)
+              </h3>
+              <p class="step-text">
+                Everything is stored locally, on your machine only.
+              </p>
+              <img
+                src="assets/images/logs screen.PNG"
+                alt="Logs screen"
+                class="screenshot step-image"
+              />
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">5</div>
+            <div class="step-content">
+              <h3 class="step-title">
+                Customize what the extension watches for
+              </h3>
+              <p class="step-text">Add/remove detection categories.</p>
+              <img
+                src="assets/images/settings screen.PNG"
+                alt="Settings screen"
+                class="screenshot step-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features -->
+    <section id="features" class="section features-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Key Features</h2>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🛡️</div>
+            <h3 class="feature-title">Real-Time Detection</h3>
+            <p class="feature-text">Catch sensitive data before it's sent.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🚫</div>
+            <h3 class="feature-title">Zero Data Stored</h3>
+            <p class="feature-text">
+              All analysis happens locally in your browser.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3 class="feature-title">One-Click Setup</h3>
+            <p class="feature-text">
+              Install the extension - no login required.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🧠</div>
+            <h3 class="feature-title">Smart Pattern Recognition</h3>
+            <p class="feature-text">
+              Detect PII, API keys, emails, logs, secrets, code fragments.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📁</div>
+            <h3 class="feature-title">Local-Only Logs</h3>
+            <p class="feature-text">Review detections privately.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">⚙️</div>
+            <h3 class="feature-title">Customizable Rules</h3>
+            <p class="feature-text">Toggle categories on or off.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🌐</div>
+            <h3 class="feature-title">Works With ChatGPT</h3>
+            <p class="feature-text">
+              ChatGPT support at launch. Claude, Gemini, Perplexity, Copilot
+              coming soon.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why It's Free -->
+    <section class="section free-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Why It's Free</h2>
+        </div>
+        <div class="free-content">
+          <p>
+            We're building bottom-up adoption before releasing the enterprise
+            version. This basic privacy tool is free forever - no sign-up, no
+            tracking.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Testimonials</h2>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              "This extension caught something I was about to paste into ChatGPT
+              that definitely shouldn't have gone there."
+            </p>
+            <p class="testimonial-author">- SaaS Engineer</p>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              "Clean, simple, and exactly the guardrail I needed."
+            </p>
+            <p class="testimonial-author">- Consultant</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section faq-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">FAQ</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3 class="faq-question">
+              Does the extension store or send any data?
+            </h3>
+            <p class="faq-answer">
+              No. All detection runs 100% locally in your browser.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">Do I need an account?</h3>
+            <p class="faq-answer">No - it works instantly after install.</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">Can teams use this?</h3>
+            <p class="faq-answer">
+              Yes - it's perfect for individuals or small teams. We're building
+              a paid version of this extension with company-wide access to
+              blocking data and rules, which are enforcable rather than
+              optional. To gain early access & discounts,
+              <a href="#" class="early-access-link" id="earlyAccessModal"
+                >click here</a
+              >.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">Does it block ChatGPT?</h3>
+            <p class="faq-answer">
+              No - it warns you, but you stay in control.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">Will there be a paid version?</h3>
+            <p class="faq-answer">Yes - enterprise features coming later.</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">Can I customize detection rules?</h3>
+            <p class="faq-answer">
+              Yes - toggle categories in the Settings screen.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section id="install" class="section cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2 class="cta-title">
+            Protect Yourself From Accidental AI Data Leaks — For Free
+          </h2>
+          <p class="cta-subtitle">
+            Use ChatGPT, Claude, and other LLMs with confidence.
+          </p>
+          <a
+            href="https://chrome.google.com/webstore"
+            class="btn btn-large btn-primary"
+            target="_blank"
+            rel="noopener"
+            >Install Free Extension</a
+          >
+          <p class="cta-footer">
+            Privacy-first. Zero data stored. Instant setup.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2025 LLM Guard. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#terms">Terms of Service</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Early Access Modal -->
+    <div id="earlyAccessModalContainer" class="modal">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <h2 class="modal-title">Get Early Access</h2>
+        <p class="modal-description">
+          Sign up to get early access to the paid version with exclusive
+          discounts.
+        </p>
+        <!-- HubSpot form will be embedded here -->
+        <div id="hubspotFormContainer">
+          <p class="form-placeholder">HubSpot form will be embedded here.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
