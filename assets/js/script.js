@@ -176,7 +176,7 @@ console.log(
   "font-size: 14px; color: #6b7280;"
 );
 console.log(
-  "%cInstall the free Chrome extension: [Add your Chrome Web Store link here]",
+  "%cInstall the free Chrome extension: https://llmguard.net/",
   "font-size: 12px; color: #9ca3af;"
 );
 
